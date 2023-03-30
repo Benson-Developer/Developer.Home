@@ -1,8 +1,8 @@
 import { LightningElement, wire } from 'lwc';
 
-import getContacts from "@salesforce/apex/contactListViewHelper.getContacts"
-import searchContact from "@salesforce/apex/contactListViewHelper.searchContact"
-import deleteContacts from "@salesforce/apex/contactListViewHelper.deleteContacts"
+import getContacts from "@salesforce/apex/ContactListViewHelper.getContacts"
+import searchContact from "@salesforce/apex/ContactListViewHelper.searchContact"
+import deleteContacts from "@salesforce/apex/ContactListViewHelper.deleteContacts"
 
 import { NavigationMixin } from 'lightning/navigation';
 import { refreshApex } from '@salesforce/apex';
